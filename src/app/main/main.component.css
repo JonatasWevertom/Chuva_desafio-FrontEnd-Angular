@@ -1,0 +1,48 @@
+.main-title {
+  height: 20px;
+  padding-top: 1.5rem;
+  color: #ed7839;
+  font-weight: 900;
+  font-size: 1.25rem;
+}
+
+.main-video {
+  margin-top: 30px;
+  width: 783px;
+  height: 439px;
+  background: rgba(141, 53, 6, 0.5);
+  border-radius: 3px;
+}
+
+.main-video > p {
+  padding: 40px 30px;
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+  color: #ffffff;
+}
+
+.main-video-container {
+  padding-left: 40px;
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.main-video-name-title {
+  font-size: 34px;
+}
+
+.main-video-name-subtitle {
+  font-size: 20px;
+}
+
+.main-video-container img {
+  width: 82px;
+  margin-right: 20px;
+  padding: 2px;
+  border-radius: 50%;
+  border: 1px solid #ed7839;
+}

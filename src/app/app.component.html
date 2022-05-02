@@ -1,67 +1,24 @@
 <!DOCTYPE html>
+
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
   </head>
+
   <body>
-    <div class="body-container">
-      <div class="side-bar-container">
-        <div class="rectangle-container">
-          <p>SLACA 2019</p>
-        </div>
-        <div>
-          <img src="../assets/dewey-4.png" alt="laranja" />
-        </div>
-        <div class="buttons-container">
-          <a href="/">Apresentação</a>
-          <a href="/">Comitês</a>
-          <a href="/">Autores</a>
-          <a href="/">Eixos temáticos</a>
-          <a href="/">Trabalhos</a>
-          <a href="/">Contato</a>
-        </div>
-      </div>
-      <div class="content-container">
-        <div class="header-container">
-          <div class="title-container">
-            <p class="subtitle">
-              Anais do Simpósio Latino Americano de Ciências de Alimentos
-            </p>
-
-            <h1 class="title">
-              Anais do 13° Simpósio Latino Americano de Ciências de Alimentos
-            </h1>
-
-            <p class="subtitle">ISSN: 1234-5678</p>
-          </div>
-          <select name="idiomas">
-            <option>🌐PT, BR</option>
-          </select>
-          <div class="user-container">
-            <div class="info-user-container">
-              <p>Bem vindo!</p>
-
-              <p>alguem12@galoascience.com</p>
-            </div>
-            <div class="image-container">
-              <div class="counter"><p>2</p></div>
-              <div class="image">
-                <img src="../assets/pessoa-que-nao-existe.png" alt="foto" />
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="section-container">
-          <div>
-            <p class="title-job">
-              Análise sensorial de preparações funcionais desenvolvidas para
-              escolares entre 09 e 15 anos, do município de Campinas/SP
-            </p>
-          </div>
-        </div>
-      </div>
+    <div class="grid-container">
+      <div class="header"><app-header></app-header></div>
+      <div class="menu"><app-menu></app-menu></div>
+      <div class="main"><app-main></app-main></div>
+      <div class="right"><app-right></app-right></div>
+      <div class="footer" style="display: flex;"><img src="../assets/imagem - footer.png" alt=""></div>
     </div>
   </body>
 </html>

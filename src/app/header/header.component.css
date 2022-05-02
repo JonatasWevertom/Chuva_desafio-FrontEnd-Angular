@@ -1,0 +1,74 @@
+.header {
+  height: 4.25rem;
+  background: #fdf1eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  width: 13.75rem;
+  height: 4.25rem;
+  background: linear-gradient(180deg, #ffb354 0%, #ee7a3a 100%);
+  font-size: 1.87rem;
+  font-weight: 700;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header p,
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.header select {
+  height: 2.12rem;
+  border: 0.06rem solid #cccccc;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #333333;
+  font-family: 'Quicksand';
+  font-family: 400;
+}
+
+.header-user {
+  align-items: center;
+  display: flex;
+  padding-right: 1.25rem;
+}
+
+.header-user-info {
+  text-align: end;
+  padding-right: 0.51rem;
+  font-family: 'Quicksand';
+  font-family: 400;
+  font-size: 14px;
+}
+
+.header-image-container img {
+  width: 2.5rem;
+  border-radius: 50%;
+  position: relative;
+  bottom: 0.18rem;
+}
+
+.header-counter {
+  width: 0.75rem;
+  height: 0.75rem;
+  font-size: 0.62rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #f85959;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  top: 0.5rem;
+  left: 1.7rem;
+}
