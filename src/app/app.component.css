@@ -25,6 +25,10 @@
   grid-area: right;
 }
 
+.interaction{
+  grid-area: interaction;
+}
+
 .footer {
   grid-area: footer;
 }
@@ -34,5 +38,6 @@
   grid-template-areas:
     "header header header header header"
     "menu main main right right"
+    "menu interaction interaction interaction interaction"
     "menu footer footer footer footer"
 }

@@ -1,0 +1,116 @@
+#mais {
+  display: none;
+}
+
+#btnVerMais {
+  text-decoration: none;
+  color: #ed7839;
+  font-weight: 500;
+}
+
+.interaction {
+  display: block;
+  max-width: 1058px;
+}
+
+.interaction-resume {
+  margin-top: 40px;
+  display: block;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+}
+
+.interaction-resume-header {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  background: #fdf1eb;
+}
+
+.interaction-resume-description {
+  font-size: 14px;
+  color: #5c5c5c;
+  font-family: "Quicksand";
+}
+
+.interaction-resume-header,
+.interaction-resume-body {
+  padding: 16px;
+}
+
+.interaction-discussoes {
+  margin-top: 40px;
+  width: 1058px;
+  min-height: 621px;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+}
+
+.interaction-discussoes-header {
+  padding: 15px;
+  display: flex;
+  align-content: center;
+  font-size: 20px;
+  font-weight: 500;
+  background: #fdf1eb;
+}
+
+.interaction-discussoes-body {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.interaction-discussoes-body h1 {
+  padding-top: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #ed7839;
+}
+
+.interaction-discussoes-body p {
+  margin: auto;
+  width: 600px;
+  font-family: "Quicksand";
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.interaction-discussoes-body > a {
+  margin: 20px auto;
+  padding: 5px 0;
+  max-width: 133px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 15px;
+  background: linear-gradient(180deg, #feb254 0%, #f0813d 100%);
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  border-radius: 4px;
+}
+
+.coments {
+  margin: 20px;
+  padding: 20px;
+  text-align: start;
+  max-width: 1280px;
+  height: 148px;
+  border: 1px solid #e7e7e7;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+
+.coments h1 {
+  margin: 0;
+  padding: 0;
+  font-family: "Quicksand";
+  font-weight: 700;
+  font-size: 16px;
+  color: #ed7839;
+}

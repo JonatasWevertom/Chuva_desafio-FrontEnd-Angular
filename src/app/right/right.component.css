@@ -22,7 +22,7 @@
   color: #ed7839;
 }
 
-.right-details {
+.right-card {
   width: 270px;
   height: 439px;
   border: 1px solid #ececec;
@@ -30,7 +30,7 @@
   border-radius: 3px;
 }
 
-.right-details h1 {
+.right-card h1 {
   font-weight: 500;
   padding: 5px 15px;
   height: 45px;
@@ -40,6 +40,6 @@
   border-radius: 3px 3px 0px 0px;
 }
 
-.details {
+.card {
   padding: 0 10px 0 10px;
 }
